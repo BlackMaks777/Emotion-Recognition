@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto Flex', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+  }
+body{
+	background: #04001A;
+	margin: 0;
+}
+.header{
+	padding-top: 100px;
+	display: block;
+	text-align: center;
+	width: 100%;
+    height: 100vh;
+	background-image: url(bg_main.svg);
+}
+h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 29px;
+}
+h1 span{
+	color: #53FDA9;
+}
+.header p{
+	font-weight: 300;
+	font-size: 40px;
+	color: #fff;
+	width: 500px;
+	margin: 160px auto 80px;
+}
+.header .pink{
+	color: #8547D6;
+}
+.header .green{
+	color: #53FDA9;
+}
+.header a{
+    margin: 0 auto;
+    display: flex;
+    width: 106px;
+    height: 106px;
+    border: 2px solid #53FDA9;
+    box-shadow: 0px 0px 9px 2px rgb(83 253 169 / 92%);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+	text-decoration: none;
+	color: #53FDA9;
+	transition: 1s;
+}
+.header a:hover{
+	color: #8953FD;
+	border: 2px solid #8953FD;
+    box-shadow: 0px 0px 9px 2px rgba(137, 83, 253, 0.92);
+	cursor: pointer;
+}
+#block-for-image{
+	padding-top: 40px;
+	display: flex;
+	text-align: center;
+	width: 100%;
+    height: 100vh;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#block-for-image .text{
+	color: #fff;
+	font-weight: 300;
+	font-size: 35px;
+	width: 500px;
+	margin: 0px auto 30px;
+}
+#block-for-image .image{
+	 color: rgba(255, 255, 255, 0); 
+  background: url('3xBO.gif');
+   background-clip: text;
+  -webkit-background-clip: text; 
+  font-size: 380px;
+  font-weight: 800; 
+  margin: 0 auto;
+  box-shadow: 44px -79px 103px -74px #fff;
+}
+.forma{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+}
+input[type=file]::file-selector-button{
+	background: #04001A;
+	border: #8547D6 1px solid;
+	border-radius: 100px;
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	transition: 1s;
+}
+input[type=file]::file-selector-button:hover{
+	cursor: pointer;
+	background: #8547D6;
+}
+input[type=submit]{
+	background: #04001A;
+	border: #8547D6 1px solid;
+	border-radius: 100px;
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	transition: 1s;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	background: #8547D6;
+
+}

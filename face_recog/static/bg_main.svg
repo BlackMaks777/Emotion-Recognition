@@ -1,0 +1,44 @@
+<svg width="1510" height="729" viewBox="0 0 1510 729" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_14_83)">
+<rect width="1510" height="729" fill="white"/>
+<rect x="-1.26538" width="1526.27" height="734.473" fill="#04001A"/>
+<g filter="url(#filter0_di_14_83)">
+<path d="M1502.4 721.909C1460.7 570.018 1363.39 435.267 1226.22 339.465C1089.06 243.663 920.064 192.418 746.596 194.023C573.128 195.628 405.336 249.99 270.378 348.31C135.421 446.63 41.1961 583.154 2.9543 735.784L721.579 882.282C723.254 875.596 727.382 869.616 733.293 865.309C739.205 861.002 746.555 858.621 754.154 858.55C761.752 858.48 769.155 860.725 775.164 864.921C781.172 869.118 785.435 875.021 787.262 881.674L1502.4 721.909Z" fill="#04001A"/>
+</g>
+<ellipse cx="989.641" cy="89.6351" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="1172.6" cy="218.068" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="243.084" cy="232.784" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="427.268" cy="140.473" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="209.932" cy="121.743" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="125.207" cy="204.689" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="368.329" cy="58.8649" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="77.3194" cy="61.5405" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="50.306" cy="338.473" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="1202.07" cy="56.1892" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="710.91" cy="44.1486" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+<ellipse cx="1144.35" cy="121.743" rx="1.22789" ry="1.33784" fill="white" fill-opacity="0.7"/>
+</g>
+<defs>
+<filter id="filter0_di_14_83" x="2.95435" y="85.9865" width="1572.45" height="834.296" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="74" operator="erode" in="SourceAlpha" result="effect1_dropShadow_14_83"/>
+<feOffset dx="44" dy="-79"/>
+<feGaussianBlur stdDeviation="51.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.32549 0 0 0 0 0.992157 0 0 0 0 0.662745 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_14_83"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_14_83" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="33" operator="dilate" in="SourceAlpha" result="effect2_innerShadow_14_83"/>
+<feOffset dy="58"/>
+<feGaussianBlur stdDeviation="35.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.415686 0 0 0 0 0 0 0 0 0 0.835294 0 0 0 0.86 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_14_83"/>
+</filter>
+<clipPath id="clip0_14_83">
+<rect width="1510" height="729" fill="white"/>
+</clipPath>
+</defs>
+</svg>
