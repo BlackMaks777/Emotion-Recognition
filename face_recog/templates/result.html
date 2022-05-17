@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <div class="recognized emotions">
+        <table id="q-graph">
+            <caption>Quarterly Results</caption>
+            <thead>
+            <tr>
+                <th></th>
+                <th class="sent">Invoiced</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="qtr" id="angry">
+                <th scope="row">Angry</th>
+                <td class="sent bar" style="height:{{angry}}px;"><p>{{angry}}%</p></td>
+            </tr>
+            <tr class="qtr" id="disgust">
+                <th scope="row">Disgust</th>
+                <td class="sent bar" style="height: {{disgust}}px;"><p>{{disgust}}%</p></td>
+            </tr>
+            <tr class="qtr" id="fear">
+                <th scope="row">Fear</th>
+                <td class="sent bar" style="height: {{fear}}px;"><p>{{fear}}%</p></td>
+            </tr>
+            <tr class="qtr" id="fappy">
+                <th scope="row">Happy</th>
+                <td class="sent bar" style="height: {{happy}}px;"><p>{{happy}}%</p></td>
+            </tr>
+             <tr class="qtr" id="sad">
+                <th scope="row">Sad</th>
+                <td class="sent bar" style="height: {{sad}}px;"><p>{{sad}}%</p></td>
+            </tr>
+             <tr class="qtr" id="surprise">
+                <th scope="row">Surprise</th>
+                <td class="sent bar" style="height: {{surprise}}px;"><p>{{surprise}}%</p></td>
+            </tr>
+              <tr class="qtr" id="neutral">
+                <th scope="row">Neutral</th>
+                <td class="sent bar" style="height: {{neutral}}px;"><p>{{neutral}}%</p></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div id="ticks">
+            <div class="tick" style="height: 59px;"><p>50%</p></div>
+            <div class="tick" style="height: 59px;"><p>40%</p></div>
+            <div class="tick" style="height: 59px;"><p>30%</p></div>
+            <div class="tick" style="height: 59px;"><p>20%</p></div>
+            <div class="tick" style="height: 59px;"><p>10%</p></div>
+        </div>
+    </div>
+<!--    <div id="block-for-image">-->
+<!--            <div class="forma">-->
+<!--                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem tempora error doloribus, soluta consequuntur mollitia ve?</div>-->
+<!--                <div class="block"><form method=post enctype=multipart/form-data>-->
+<!--                    <input type=file name=file>-->
+<!--                    <input type=submit value=Upload>-->
+<!--                  </form></div>-->
+<!--            </div>-->
+<!--            <div class="image">E</div>-->
+<!--    </div>-->
+    <div class="button-class">
+        <a class="try-again" href="#">Try again</a>
+    </div>
+</body>
+</html>

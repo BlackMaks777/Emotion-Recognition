@@ -16,7 +16,7 @@ body{
 	text-align: center;
 	width: 100%;
     height: 100vh;
-	background-image: url(bg_main.svg);
+	background-image: url(bg_main.svg) no-repeat center;
 }
 h1 {
   color: #fff;
