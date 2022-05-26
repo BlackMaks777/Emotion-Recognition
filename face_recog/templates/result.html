@@ -7,70 +7,47 @@
     <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 <body>
-    <div class="recognized emotions">
-        <table id="q-graph">
-            <caption>Quarterly Results</caption>
-            <thead>
-            <tr>
-                <th></th>
-                <th class="sent">Invoiced</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr class="qtr" id="angry">
-                <th scope="row">Angry</th>
-                <td class="sent bar" style="height:{{angry}}px;"><p>{{angry}}%</p></td>
-            </tr>
-            <tr class="qtr" id="disgust">
-                <th scope="row">Disgust</th>
-                <td class="sent bar" style="height: {{disgust}}px;"><p>{{disgust}}%</p></td>
-            </tr>
-            <tr class="qtr" id="fear">
-                <th scope="row">Fear</th>
-                <td class="sent bar" style="height: {{fear}}px;"><p>{{fear}}%</p></td>
-            </tr>
-            <tr class="qtr" id="fappy">
-                <th scope="row">Happy</th>
-                <td class="sent bar" style="height: {{happy}}px;"><p>{{happy}}%</p></td>
-            </tr>
-             <tr class="qtr" id="sad">
-                <th scope="row">Sad</th>
-                <td class="sent bar" style="height: {{sad}}px;"><p>{{sad}}%</p></td>
-            </tr>
-             <tr class="qtr" id="surprise">
-                <th scope="row">Surprise</th>
-                <td class="sent bar" style="height: {{surprise}}px;"><p>{{surprise}}%</p></td>
-            </tr>
-              <tr class="qtr" id="neutral">
-                <th scope="row">Neutral</th>
-                <td class="sent bar" style="height: {{neutral}}px;"><p>{{neutral}}%</p></td>
-            </tr>
-            </tbody>
-        </table>
-
-        <div id="ticks">
-            <div class="tick" style="height: 59px;"><p>50%</p></div>
-            <div class="tick" style="height: 59px;"><p>40%</p></div>
-            <div class="tick" style="height: 59px;"><p>30%</p></div>
-            <div class="tick" style="height: 59px;"><p>20%</p></div>
-            <div class="tick" style="height: 59px;"><p>10%</p></div>
+    <div class="result">
+        <div class="result-wrap">
+            <div class="result-img">
+                <img src="{{pict}}">
+            </div> 
+            <div class="recognized-emotions">
+                <div id="ticks">
+                    <div class="container"> 
+                        <div class="tick-wrap fear"> 
+                            <div class="tick" style="width: {{fear}}%;"><p>fear</p></div>
+                            </div>
+                        <div class="tick-wrap disgust">
+                            <div class="tick" style="width: {{disgust}}%;"><p>disgust</p></div>
+                         </div>
+                    </div>
+                  
+                    <div class="container"> 
+                            <div class="tick-wrap angry">
+                                <div class="tick" style="width: {{angry}}%;"><p>angry</p></div>
+                            </div> 
+                        <div class="tick-wrap sad"> 
+                            <div class="tick" style="width: {{sad}}%;"><p>sad</p></div>
+                            </div>
+                            <div class="tick-wrap neutral">
+                                <div class="tick" style="width: {{neutral}}%;"><p>neutral</p></div>
+                            </div>
+                    </div>
+                    <div class="container">
+                        <div class="tick-wrap surprise">
+                             <div class="tick" style="width: {{surprise}}%;"><p>surprise</p></div>
+                        </div>
+                        <div class="tick-wrap happy">
+                            <div class="tick" style="width: {{happy}}%;"><p>happy</p></div>
+                            </div>
+                    </div>
+                   
+                </div>
+            </div>
         </div>
+       
     </div>
-<!--    <div id="block-for-image">-->
-<!--            <div class="forma">-->
-<!--                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem tempora error doloribus, soluta consequuntur mollitia ve?</div>-->
-<!--                <div class="block"><form method=post enctype=multipart/form-data>-->
-<!--                    <input type=file name=file>-->
-<!--                    <input type=submit value=Upload>-->
-<!--                  </form></div>-->
-<!--            </div>-->
-<!--            <div class="image">E</div>-->
-<!--    </div>-->
-    <div>
-        <img src="{{pict}}">
-    </div>
-    <div class="button-class">
-        <a class="try-again" href="#">Try again</a>
-    </div>
+    
 </body>
 </html>

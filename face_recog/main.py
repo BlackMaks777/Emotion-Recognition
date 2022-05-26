@@ -26,7 +26,8 @@ def index():
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             url_pict = url_for('static', filename='upload/' + filename)
-        return render_template("result.html", angry=30, sad=10, happy= 30, neutral=0,surprise=10,fear=10, disgust=0, pict=url_pict)
+            result = face_recognithion(file)
+        return render_template("result.html", angry=result[0]['emotions']['angry']*100, sad=result[0]['emotions']['sad']*100, happy= result[0]['emotions']['happy']*100, neutral=result[0]['emotions']['neutral']*100, surprise=result[0]['emotions']['surprise']*100, fear=result[0]['emotions']['fear']*100, disgust=result[0]['emotions']['disgust']*100, pict=url_pict)
     else:
         return render_template("index.html")
 
